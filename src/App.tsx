@@ -99,7 +99,7 @@ function App() {
 						inputValue={inputValue}
 						setInputValue={setInputValue}
 					/>
-					{filteredTodos.length && (
+					{filteredTodos.length > 0 && (
 						<TodoList
 							filteredTodos={filteredTodos}
 							toggleTodo={toggleTodo}
